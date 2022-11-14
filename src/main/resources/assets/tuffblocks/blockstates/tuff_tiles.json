@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tuffblocks:block/tuff_tiles"
+    }
+  }
+}

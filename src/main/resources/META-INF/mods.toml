@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="${forge_version_range}"
+license="custom"
+issueTrackerURL="https://github.com/Sniffity/TuffBlocks/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tuff_blocks"
+logoFile="tuff_blocks.png"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
