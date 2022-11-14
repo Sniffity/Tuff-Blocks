@@ -14,10 +14,10 @@ version = "${mod_version}-${minecraft_version}"
 group = 'com.github.sniffity.panthalassa'
 archivesBaseName = "${mod_id}"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(16)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'official', version: '1.17.1'
+    mappings channel: 'official', version: '1.18.2'
 
     runs {
         client {
@@ -64,7 +64,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.1.1'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.85'
 }
 
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']

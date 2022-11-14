@@ -1,7 +1,7 @@
 modLoader="javafml" 
 loaderVersion="${forge_version_range}"
 license="custom"
-issueTrackerURL="https://github.com/Sniffity/TuffBlocks/issues"
+issueTrackerURL="https://github.com/Sniffity/Tuff-Blocks/issues"
 
 [[mods]]
 modId="${mod_id}"
